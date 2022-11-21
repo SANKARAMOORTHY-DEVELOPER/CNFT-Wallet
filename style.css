@@ -18,8 +18,8 @@ html, body {
 }
 .app_inner {
   background: #FFF;
-  width: 750px;
-  height: 550px;
+  width: 980px;
+  height: 2128px;
   display: flex;
   border-radius: 9px;
   box-shadow: 1px 5px 15px #CCC;
@@ -36,15 +36,15 @@ html, body {
   margin: 0 auto;
 }
 .app_inner aside .wallet .holder {
-  height: 370px;
+  height: 350px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 .app_inner aside .wallet .card {
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  width: 180px;
-  height: 100px;
+  width: 330px;
+  height: 180px;
   margin: 1em;
   display: flex;
   justify-content: space-between;
@@ -72,7 +72,7 @@ html, body {
   z-index: 0;
 }
 .app_inner aside .wallet .card_number, .app_inner aside .wallet .card_holder > p {
-  font-size: 10px;
+  font-size: 20px;
   color: #FFF;
 }
 .app_inner aside .wallet .card_holder {
@@ -82,10 +82,10 @@ html, body {
   width: 100%;
 }
 .app_inner aside .wallet .card_icon {
-  width: 20%;
+  width: 40%;
 }
 .app_inner aside .wallet .card_icon > img {
-  width: 35px;
+  width: 70px;
   height: auto;
 }
 .app_inner .add_a_card {
@@ -98,10 +98,10 @@ html, body {
   cursor: pointer;
 }
 .app_inner .add_a_card > i {
-  font-size: 30px;
+  font-size: 120px;
 }
 .app_inner .add_a_card > p {
-  font-size: 17px;
+  font-size: 47px;
 }
 .app_inner main {
   background: #252734;
@@ -118,8 +118,8 @@ html, body {
 .app_inner main .list .card {
   background-color: #EF3E5C;
   border-radius: 5px;
-  width: 170px;
-  height: 100px;
+  width: 380px;
+  height: 230px;
   margin: 3em auto;
   display: flex;
   transform: scale(1.5);
@@ -142,7 +142,7 @@ html, body {
   z-index: -1;
 }
 .app_inner main .list .card_number, .app_inner main .list .card_holder, .app_inner main .list .card_expiration, .app_inner main .list .card_holder > p {
-  font-size: 10px;
+  font-size: 30px;
   color: #FFF;
 }
 .app_inner main .list .card_holder {
@@ -155,7 +155,7 @@ html, body {
   width: 20%;
 }
 .app_inner main .list .card_icon > img {
-  width: 35px;
+  width: 55px;
   height: auto;
 }
 .app_inner main .list .transactions table {
@@ -164,6 +164,7 @@ html, body {
   color: #FFF;
   padding: 1em;
   border-spacing: 0;
+  font-size: 25px;
 }
 .app_inner main .list .transactions table thead {
   border-bottom: 1px solid #232531;
@@ -221,7 +222,7 @@ html, body {
   z-index: 0;
 }
 .app_inner main .create .card_number, .app_inner main .create .card_holder, .app_inner main .create .card_expiration, .app_inner main .create .card_holder > p {
-  font-size: 10px;
+  font-size: 40px;
   color: #FFF;
   text-transform: capitalize;
 }
@@ -250,6 +251,7 @@ html, body {
   height: 525px;
   flex-flow: column wrap;
   justify-content: space-around;
+
 }
 .app_inner main form input[type=text] {
   background: transparent;
@@ -259,7 +261,7 @@ html, body {
   border-left: none;
   border-right: none;
   width: 85%;
-  font-size: 18px;
+  font-size: 36px;
   outline: none;
   color: #FFF;
 }
@@ -269,7 +271,7 @@ html, body {
   border: none;
   padding: 1em;
   width: 85%;
-  font-size: 18px;
+  font-size: 36px;
   outline: none;
   border-radius: 7px;
   cursor: pointer;
